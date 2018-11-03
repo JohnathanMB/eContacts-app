@@ -1,0 +1,39 @@
+mat-card-header{
+    background-color: aquamarine;
+    padding-top: 10px;
+}
+
+.login-card {
+    
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    width: 60%;
+    padding: 0%;
+    
+  }
+
+  .login-content-card{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+  }
+
+  form{
+    text-align:center;
+  }
+
+  input{
+      padding: 5px;
+      margin: 5px;
+  }
+
+  
+
+  
+
+
+  
+  
+

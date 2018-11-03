@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 80%; }
+body { margin: 10; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+/* https://devcode.la/tutoriales/como-centrar-un-div-con-css/ */
+/* body {
+    background: yellow;
+    height: 150px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */

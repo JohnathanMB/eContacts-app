@@ -1,0 +1,18 @@
+<!-- <div class="login">
+  <h2>Login</h2>
+  
+</div> -->
+<mat-card class="login-card">
+  <mat-card-header>
+    <mat-card-title>Login</mat-card-title>
+  </mat-card-header>
+  <mat-card-content class="login-content-card">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)" class="form-control">
+      <label>Los campos con * son necesarios</label><br>
+
+      <input type="email" name="email" id="email" placeholder="Correo" minlength="1" required aria-required="true" ngModel >*<br>
+      <input type="password" name="password" id="password" placeholder="Password" minlength="1" required aria-required="true" ngModel >*<br>
+      <button type="submit" [disabled]="!loginForm.form.valid">Entrar</button>
+    </form>
+  </mat-card-content>
+</mat-card>
